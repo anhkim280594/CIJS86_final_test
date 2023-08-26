@@ -1,0 +1,55 @@
+body{
+  justify-content: center;
+  text-align: center;
+}
+.App {
+  width: 700px;
+  margin: 0;
+  padding: 0;
+}
+.completed {
+  text-decoration: line-through;
+}
+hr{
+  margin: 0;
+}
+.addInput{
+  display: flex;
+  width: 100%;
+  gap: 16px;
+  margin-top: 16px;
+}
+.addInput>input{
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+}
+.addInput>button{
+  background-color: #0084F5;
+  color: white;
+  width: 90px;
+}
+ul{
+  padding: 0;
+}
+li{
+  list-style-type: none;
+  text-align: start;
+  padding: 8px 0;
+}
+.TabContainer{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+.TabContainer>div{
+  width: 90px;
+  padding-bottom: 16px;
+}
+.TabContainer>div:hover{
+  cursor: pointer;
+}
+.TabContainer>div.active{
+  border-bottom: 2px solid #0084F5;
+}
